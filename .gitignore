@@ -1,0 +1,28 @@
+# Java / Maven
+target/
+*.class
+*.jar
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets and local data
+.env
+*.key
+ai/**/data/
+ai/**/.chroma/
+ai/**/vectorstore/
+
+# OS
+.DS_Store
+Thumbs.db
